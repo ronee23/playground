@@ -124,16 +124,16 @@ Dim strMessage:
 Dim strSgntr:
 
 Set objMessage = CreateObject("CDO.Message")
-objMessage.Subject = "ICICI/ProView/Total EJ Pull-Summary Wincor ATMs"
-objMessage.From = "proview.support@icicibank.com"
+objMessage.Subject = "/ProView/Total EJ Pull-Summary Wincor ATMs"
+objMessage.From = "proview.support@"
 
 
-'objMessage.To = "jayant.deshmukh@icicibank.com"
-'objMessage.Cc = "rohitrajendra.sharma@icicibank.com"
+'objMessage.To = ""
+'objMessage.Cc = ""
 
-objMessage.To = "neeta.kajla@agsindia.com,ags.monitoring@agsindia.com,sajeev.kumar@agsindia.com,pravin.daki@agsindia.com"
-objMessage.Cc = "miller.koli@icicibank.com,rajiv.jeste@icicibank.com,sujit.desai@icicibank.com,hiral.rathod@icicibank.com,vaikunda.rajan@ext.icicibank.com,chetan.agnihotri@ext.icicibank.com,prasad.padave@ext.icicibank.com,makarand.kelkar@icicibank.com,jayant.deshmukh@icicibank.com,prasad.choudhary@ext.icicibank.com,ashish.thale@ext.icicibank.com,anantha.krishna@icicibank.com,hussain.munshi@ext.icicibank.com,sachin.valanj@icicibank.com,atul.kumar@icicibank.com,rohitrajendra.sharma@icicibank.com"
-objMessage.Bcc = "rajesh.ronaldreagan@wincor-nixdorf.com,abdul.samad@wincor-nixdorf.com;rajesh.reagan@ext.icicibank.com"
+objMessage.To = ""
+objMessage.Cc = ""
+objMessage.Bcc = "
 
 strMessage =  "<font face='Verdana' size='2'><table border=1 cellpadding=0 cellspacing=0 width=45% style='border-collapse:collapse;font-size:12px'><tr><td colspan=4 align=center>ICICI Daily EJ Pulling Report Through ProView - " & FrDte & "</tr>" & _
 	      "<tr><th>Machine Type</th><th>Wincor</th></tr>" & _
